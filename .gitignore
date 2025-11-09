@@ -1,0 +1,11 @@
+__pycache__/
+.env
+
+# Data & models
+data/raw/
+data/interim/
+data/processed/
+
+# Logs
+*.log
+
