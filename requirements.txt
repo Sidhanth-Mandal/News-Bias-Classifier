@@ -1,0 +1,17 @@
+pandas
+numpy
+tqdm
+python-dotenv
+requests
+newspaper3k
+aiohttp
+pyyaml
+pydantic
+pandas-gbq
+google-cloud-bigquery
+transformers
+datasets
+peft
+evaluate
+torch
+scikit-learn
