@@ -15,15 +15,13 @@ So, this project automates the process using **large-scale data extraction**, **
 
 ---
 
-## ⚙️ Pipeline Overview
-
-| Step                    | Name                                                                     | Purpose |
-| ----------------------- | ------------------------------------------------------------------------ | ------- |
-| **1️⃣ Data Extraction** | Query political articles from the **GDELT BigQuery dataset**             |         |
-| **2️⃣ Scraping**        | Use a **multithreaded scraper** to extract full article text             |         |
-| **3️⃣ Labeling**        | Use **Gemini 2.0 Flash API** to assign Left/Center/Right bias            |         |
-| **4️⃣ Model Training**  | Fine-tune **BigBird-RoBERTa** with **LoRA** for long-text classification |         |
-| **5️⃣ Inference**       | Predict bias for new unseen articles                                     |         |
+| Step                    |                             Purpose                                      |
+| ----------------------- | -------------------------------------------------------------------------|
+| **1️⃣ Data Extraction** | Query political articles from the **GDELT BigQuery dataset**             |
+| **2️⃣ Scraping**        | Use a **multithreaded scraper** to extract full article text             |
+| **3️⃣ Labeling**        | Use **Gemini 2.0 Flash API** to assign Left/Center/Right bias            |
+| **4️⃣ Model Training**  | Fine-tune **BigBird-RoBERTa** with **LoRA** for long-text classification |
+| **5️⃣ Inference**       | Predict bias for new unseen articles                                     |
 
 ---
 
